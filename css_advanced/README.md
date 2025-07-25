@@ -2,12 +2,11 @@
 
 ---
 
-### ✅ `README.md`
 
 ```markdown
 # 😁 SmileSchool - Advanced CSS Project
 
-📘 **Project Overview**  
+📘 Project Overview  
 SmileSchool is a fictional landing page that promotes a fun and engaging platform where users can learn how to smile through video tutorials. It includes expert testimonials, a gallery of popular tutorials, a free membership section, FAQs, and more — all wrapped in a clean, modern layout.
 
 ---
