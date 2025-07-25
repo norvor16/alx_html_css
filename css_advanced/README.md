@@ -1,8 +1,8 @@
-Absolutely! Here's a **cleanly organized and complete `README.md` file** based on everything you've shared, structured professionally for GitHub and ALX project review.
+
 
 ---
 
-````markdown
+
 # 😁 SmileSchool – Advanced CSS Project
 
 ## 📘 Project Overview  
