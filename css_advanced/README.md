@@ -2,88 +2,137 @@
 
 ---
 
+# Advanced CSS Project
 
-```markdown
-# 😁 SmileSchool - Advanced CSS Project
+This project focuses on building and styling a professional-looking webpage using advanced CSS techniques, following the provided design specifications in Figma.
 
-📘 Project Overview  
-SmileSchool is a fictional landing page that promotes a fun and engaging platform where users can learn how to smile through video tutorials. It includes expert testimonials, a gallery of popular tutorials, a free membership section, FAQs, and more — all wrapped in a clean, modern layout.
-
----
-
-🚀 **Features**  
-✅ Hero section with bold heading, subheadline, and call-to-action  
-✅ Navigation links (Courses, Pricing, Login)  
-✅ Expert testimonials with profile photos and accolades  
-✅ Featured quote with colored background  
-✅ Grid layout of popular video tutorials with play icons, ratings, and duration  
-✅ Free membership benefits section with icons  
-✅ Frequently Asked Questions (FAQ)  
-✅ Footer with logo, copyright, and social media  
-
----
-
-📁 **Folder Structure**
+## 📁 Project Structure
 
 ```
 
-SmileSchool/
+css\_advanced/
 ├── index.html
-├── style.css
-├── Homepage.jpeg
+├── styles/
+│   └── styles.css
 ├── images/
-│   ├── expert1.jpg
-│   ├── tutorial1.jpg
-│   └── ...
+│   └── (all downloaded assets)
+├── fonts/
+│   └── SourceSansPro, SpinCycleOT
 └── README.md
 
 ````
 
----
+## 📌 Objectives
 
-🛠 **Technologies Used**  
-- **HTML5** (semantic structure)  
-- **CSS3** (Flexbox layout, visual styling)  
-- No frameworks or libraries (vanilla CSS and HTML only)
+- Recreate a webpage based on a high-fidelity Figma design.
+- Implement responsive and modern styling using CSS.
+- Integrate web fonts and image assets.
+- Clean up and adjust the HTML markup as needed to align with the design.
 
----
+## 🖌️ Design Source
 
-🧰 **Setup Instructions**
+- **Figma Page:** [Access Design in Figma](<insert Figma link>)
+- Make sure to **Duplicate to Drafts** for full access to styles and measurements.
+- Fonts to install:
+  - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+  - [Spin Cycle OT](https://www.fonts.com/font/spin-cycle)
 
-1. **Clone this repository:**
+## 🔧 Installation & Setup
+
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/your-username/alx_html_css.git
 cd alx_html_css/css_advanced
 ````
 
-2. Make sure the folder contains the following:
+2. Open `index.html` in your browser to view the project.
 
-   * `index.html`
-   * `style.css`
-   * `Homepage.jpeg` (screenshot of the final layout)
-   * `images/` (all required assets)
+3. Link your local or online fonts and images properly in the `index.html` and `styles.css` files.
 
-3. **Open** `index.html` in your browser.
+## 🧠 Technologies Used
 
-4. Done! 🎉 You’ll see the full **SmileSchool** landing page as designed.
+* HTML5
+* CSS3 (Flexbox, Grid, Media Queries)
+* Google Fonts
+* Figma (for UI/UX design reference)
+
+## 💡 Notes
+
+* If some values appear in float in Figma (e.g., `32.13px`), feel free to round to the nearest pixel.
+* The original HTML code from the "HTML, Advanced" concept page is used and modified where necessary to incorporate styles, images, and fonts.
+
+## 👨‍💻 Author
+
+This project is part of the ALX SE curriculum. Built with 💙 and code.
+
+````
 
 ---
 
-📌 **Future Improvements**
+### ✅ `index.html`
 
-* Make the site responsive for mobile and tablet devices.
-* Add interactive behavior to the FAQ section using JavaScript.
-* Use real images, icons, and content instead of placeholders.
-* Optimize assets for performance and accessibility.
+Here's a simplified version to start with (based on ALX's HTML Advanced project):
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced CSS Project</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time.</p>
+      <a href="#" class="cta-button">Start now</a>
+    </div>
+    <img src="images/hero-image.png" alt="Hero Illustration" />
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Add content sections here -->
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ALX CSS Project. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+````
 
 ---
 
-💼 **Project Repository**
+### ✅ Next Steps
 
-* GitHub Repo: [https://github.com/norvor16/alx\_html\_css]
-* Project Directory: `css_advanced`
-
-```
-
+1. Add full styling in `styles/styles.css` to match the Figma design.
+2. Replace image placeholders (e.g., `hero-image.png`, `logo.png`) with actual images from the downloaded assets.
+3. Integrate any animations or transitions as specified in the design.
+4. Ensure responsiveness using media queries.
 
