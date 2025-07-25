@@ -315,3 +315,51 @@ main section:nth-of-type(3) div h4 {
     margin-top: 5px; /* Adds space above the subheading */
     font-weight: normal; /* Makes the text normal weight */
 }
+
+/* ------------------- Free Membership Section ------------------- */
+
+section.membership {
+    background-color: #071629;
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+section.membership h2 {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3rem;
+}
+
+section.membership h2 span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.membership-features {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.feature {
+    max-width: 200px;
+    padding: 0 1rem;
+}
+
+.feature i {
+    font-size: 2rem;
+    color: #C271FF;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+
