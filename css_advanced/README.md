@@ -5,81 +5,86 @@
 ### ✅ `README.md`
 
 ```markdown
-# Advanced CSS Project
+# 😁 SmileSchool - Advanced CSS Project
 
-This project focuses on building and styling a professional-looking webpage using advanced CSS techniques, following the provided design specifications in Figma.
+📘 **Project Overview**  
+SmileSchool is a fictional landing page that promotes a fun and engaging platform where users can learn how to smile through video tutorials. It includes expert testimonials, a gallery of popular tutorials, a free membership section, FAQs, and more — all wrapped in a clean, modern layout.
 
-## 📁 Project Structure
+---
+
+🚀 **Features**  
+✅ Hero section with bold heading, subheadline, and call-to-action  
+✅ Navigation links (Courses, Pricing, Login)  
+✅ Expert testimonials with profile photos and accolades  
+✅ Featured quote with colored background  
+✅ Grid layout of popular video tutorials with play icons, ratings, and duration  
+✅ Free membership benefits section with icons  
+✅ Frequently Asked Questions (FAQ)  
+✅ Footer with logo, copyright, and social media  
+
+---
+
+📁 **Folder Structure**
 
 ```
 
-css\_advanced/
+SmileSchool/
 ├── index.html
-├── styles/
-│   └── styles.css
+├── style.css
+├── Homepage.jpeg
 ├── images/
-│   └── (all downloaded assets)
-├── fonts/
-│   └── SourceSansPro, SpinCycleOT
+│   ├── expert1.jpg
+│   ├── tutorial1.jpg
+│   └── ...
 └── README.md
 
 ````
 
-## 📌 Objectives
+---
 
-- Recreate a webpage based on a high-fidelity Figma design.
-- Implement responsive and modern styling using CSS.
-- Integrate web fonts and image assets.
-- Clean up and adjust the HTML markup as needed to align with the design.
+🛠 **Technologies Used**  
+- **HTML5** (semantic structure)  
+- **CSS3** (Flexbox layout, visual styling)  
+- No frameworks or libraries (vanilla CSS and HTML only)
 
-## 🖌️ Design Source
+---
 
-- **Figma Page:** [Access Design in Figma](<insert Figma link>)
-- Make sure to **Duplicate to Drafts** for full access to styles and measurements.
-- Fonts to install:
-  - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
-  - [Spin Cycle OT](https://www.fonts.com/font/spin-cycle)
+🧰 **Setup Instructions**
 
-## 🔧 Installation & Setup
-
-1. Clone this repository:
+1. **Clone this repository:**
 
 ```bash
 git clone https://github.com/your-username/alx_html_css.git
 cd alx_html_css/css_advanced
 ````
 
-2. Open `index.html` in your browser to view the project.
+2. Make sure the folder contains the following:
 
-3. Link your local or online fonts and images properly in the `index.html` and `styles.css` files.
+   * `index.html`
+   * `style.css`
+   * `Homepage.jpeg` (screenshot of the final layout)
+   * `images/` (all required assets)
 
-## 🧠 Technologies Used
+3. **Open** `index.html` in your browser.
 
-* HTML5
-* CSS3 (Flexbox, Grid, Media Queries)
-* Google Fonts
-* Figma (for UI/UX design reference)
-
-## 💡 Notes
-
-* If some values appear in float in Figma (e.g., `32.13px`), feel free to round to the nearest pixel.
-* The original HTML code from the "HTML, Advanced" concept page is used and modified where necessary to incorporate styles, images, and fonts.
-
-## 👨‍💻 Author
-
-This project is part of the ALX SE curriculum. Built with 💙 and code.
-
-````
-
-
-````
+4. Done! 🎉 You’ll see the full **SmileSchool** landing page as designed.
 
 ---
 
-### ✅ Next Steps
+📌 **Future Improvements**
 
-1. Add full styling in `styles/styles.css` to match the Figma design.
-2. Replace image placeholders (e.g., `hero-image.png`, `logo.png`) with actual images from the downloaded assets.
-3. Integrate any animations or transitions as specified in the design.
-4. Ensure responsiveness using media queries.
+* Make the site responsive for mobile and tablet devices.
+* Add interactive behavior to the FAQ section using JavaScript.
+* Use real images, icons, and content instead of placeholders.
+* Optimize assets for performance and accessibility.
+
+---
+
+💼 **Project Repository**
+
+* GitHub Repo: [https://github.com/norvor16/alx\_html\_css]
+* Project Directory: `css_advanced`
+
+```
+
 
