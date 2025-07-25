@@ -1,4 +1,4 @@
-## 🖼️ Homepage Preview
+
 
 ![Homepage Screenshot](Homepage.jpeg)
 
