@@ -4,7 +4,11 @@
 
 # Advanced CSS Project
 
+<<<<<<< HEAD
 This project focuses on building and styling a professional-looking webpage using advanced CSS techniques, following the provided design specifications in Figma.
+=======
+# 😁 SmileSchool - Advanced CSS Project
+>>>>>>> 3127f681d70821a593206705bd034f1f78501156
 
 ## 📁 Project Structure
 
