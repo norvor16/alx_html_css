@@ -1,32 +1,38 @@
-😄 HTML Advanced Project – SmileSchool Landing Page
-Welcome to the SmileSchool landing page – a responsive and visually engaging HTML project designed to showcase mastery of advanced HTML concepts, semantic structuring, and media integration.
 
-📘 Project Overview
-This project features a fully structured landing page built with semantic HTML5 elements like <header>, <main>, <section>, and <footer>. It includes:
+---
 
-✅ A navigation bar with logo and links
+```markdown
+# HTML Advanced Project – SmileSchool Landing Page
 
-✅ Hero section with a call-to-action
+Welcome to the **SmileSchool** landing page – a responsive and visually engaging HTML project designed to showcase mastery of advanced HTML concepts, semantic structuring, and media integration.
 
-✅ Instructor profiles
+---
 
-✅ Testimonial section
+## 📄 Project Overview
 
-✅ Most popular tutorials section
+This project features a fully structured landing page using semantic HTML5 elements such as `<header>`, `<main>`, `<section>`, and `<footer>`. It includes:
 
-✅ Free membership benefits
+- A navigation bar with logo and links  
+- Hero section with a call-to-action  
+- Instructor profiles  
+- Testimonial section  
+- Most popular tutorials section  
+- Free membership details  
+- FAQ section  
+- Social media-enabled footer
 
-✅ FAQ section
+---
 
-✅ Social media-enabled footer
+## 🖼️ Preview
 
-🖼️ Preview
+![Homepage Preview](Homepage.jpeg)
 
+---
 
-📁 Folder Structure
-pgsql
-Copy
-Edit
+## 📁 Folder Structure
+
+```
+
 SmileSchool/
 ├── index.html
 ├── Homepage.jpeg
@@ -37,47 +43,51 @@ SmileSchool/
 │   ├── 4.png
 │   ├── 5.png
 │   ├── 6.png
-│   ├── logo.png
+│   └── logo.png
 ├── style.css
 └── README.md
-✅ Replace or update the images in the images/ folder as needed.
 
-🛠 Technologies Used
-HTML5 (Semantic layout)
+````
 
-CSS3 (Flexbox, Visual styling)
+---
 
-Font Awesome (For icons)
+## 🚀 How to Run
 
-Responsive Design (media queries)
+1. **Clone the repo:**
 
-🚀 How to Run Locally
-Clone the repository:
-
+```bash
 git clone https://github.com/your-username/alx_html_css.git
+````
 
-Navigate into the project folder:
+2. **Navigate to the project directory:**
 
+```bash
 cd alx_html_css/css_advanced
+```
 
-Open the file in your browser:
+3. **Open the page in a browser:**
 
-On Mac: open index.html
+```bash
+open index.html
+# or simply double-click index.html
+```
 
-On Windows: double-click index.html
+---
 
-Or use your code editor's live preview
+## 🛠️ Technologies Used
 
-📌 Future Enhancements
-Make the site fully responsive for all screen sizes
+* **HTML5** (semantic elements)
+* **Font Awesome** (for icons)
+* **Responsive layout techniques**
 
-Add interactive functionality to the FAQ section
+---
 
-Replace sample images with real assets
+## 🙋🏽‍♀️ Author
 
-Improve accessibility and SEO using ARIA roles and meta tags
-
-👩🏽‍💻 Author
-Miriam Norvor
+**Miriam Norvor**
 Chartered Tax Accountant | Data Scientist | Frontend Developer Trainee
-LinkedIn | GitHub
+[LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/norvor16)
+
+```
+
+
