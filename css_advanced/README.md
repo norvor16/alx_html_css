@@ -3,7 +3,6 @@
 ---
 
 
-```markdown
 # 😁 SmileSchool - Advanced CSS Project
 
 📘 Project Overview  
