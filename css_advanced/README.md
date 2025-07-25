@@ -1,65 +1,83 @@
-# HTML Advanced Project – SmileSchool Landing Page
+😄 HTML Advanced Project – SmileSchool Landing Page
+Welcome to the SmileSchool landing page – a responsive and visually engaging HTML project designed to showcase mastery of advanced HTML concepts, semantic structuring, and media integration.
 
-Welcome to the **SmileSchool** landing page – a responsive and visually engaging HTML project designed to showcase mastery of advanced HTML concepts, semantic structuring, and media integration.
+📘 Project Overview
+This project features a fully structured landing page built with semantic HTML5 elements like <header>, <main>, <section>, and <footer>. It includes:
 
-## 📄 Project Overview
+✅ A navigation bar with logo and links
 
-This project features a fully structured landing page using semantic HTML5 elements such as `<header>`, `<main>`, `<section>`, and `<footer>`. It includes:
+✅ Hero section with a call-to-action
 
-- A navigation bar with logo and links
-- Hero section with a call-to-action
-- Instructor profiles
-- Testimonial section
-- Most popular tutorials section
-- Free membership details
-- FAQ section
-- Social media-enabled footer
+✅ Instructor profiles
 
-## 🖼️ Preview
+✅ Testimonial section
 
-> ![Sample Preview](https://fakeimg.pl/600x400?text=SmileSchool+Preview)
+✅ Most popular tutorials section
 
-## 📂 Folder Structure
+✅ Free membership benefits
 
+✅ FAQ section
+
+✅ Social media-enabled footer
+
+🖼️ Preview
+
+
+📁 Folder Structure
+pgsql
+Copy
+Edit
 SmileSchool/
 ├── index.html
 ├── Homepage.jpeg
 ├── images/
-│ ├── 1.png
-│ ├── 2.png
-│ ├── 3.png
-│ ├── ...
-│ └── logo.png
-├── style.css 
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   ├── 5.png
+│   ├── 6.png
+│   ├── logo.png
+├── style.css
 └── README.md
+✅ Replace or update the images in the images/ folder as needed.
 
+🛠 Technologies Used
+HTML5 (Semantic layout)
 
-> Replace with your actual image files inside the `images/` directory.
+CSS3 (Flexbox, Visual styling)
 
-## 🚀 How to Run
+Font Awesome (For icons)
 
-1. Clone the repo:
+Responsive Design (media queries)
 
-   git clone https://github.com/your-username/alx_html_css.git
+🚀 How to Run Locally
+Clone the repository:
 
-2. Navigate to the project directory:
+git clone https://github.com/your-username/alx_html_css.git
+
+Navigate into the project folder:
 
 cd alx_html_css/css_advanced
 
-3. Open the page in a browser:
+Open the file in your browser:
 
-open index.html
+On Mac: open index.html
 
+On Windows: double-click index.html
 
-🛠️ Technologies Used
-HTML5
+Or use your code editor's live preview
 
-Font Awesome (for icons)
+📌 Future Enhancements
+Make the site fully responsive for all screen sizes
 
-Responsive layout techniques (via <meta viewport>)
+Add interactive functionality to the FAQ section
 
-🙋🏽‍♀️ Author
+Replace sample images with real assets
+
+Improve accessibility and SEO using ARIA roles and meta tags
+
+👩🏽‍💻 Author
 Miriam Norvor
-Chartered Tax Accountant| Data Scientist|Frontend Developer Trainee
+Chartered Tax Accountant | Data Scientist | Frontend Developer Trainee
 LinkedIn | GitHub
-
